@@ -1,5 +1,5 @@
-export const Greeting = (name) => {
+export const Greeting = (data) => {
   return (
-    <h1>Hello, {name}</h1>
+    <h1>Hello, {data.name}</h1>
   )
 }
